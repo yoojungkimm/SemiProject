@@ -1,0 +1,905 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'BMJUA';
+}
+
+.navbar_custom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F4EFEA;
+    padding: 8px 12px;
+}
+
+.navbar_custom a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #9A161F;
+}
+
+.navbar-brand-logo_custom {
+    width: 100%;
+    min-width: 10rem;
+    max-width: 10rem;
+}
+
+.navbar_menu_custom {
+    font-size: 25px;
+    background-color: #F4EFEA;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.navbar_menu_custom a {
+    text-decoration: none;
+    color: #9A161F;
+    padding: 12px 30px;
+}
+
+.navbar_menu_custom li:hover {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* drama 추가 */
+
+.background-1 {
+    background-color: white;
+}
+
+
+/* 결제 추가 */
+
+.margin-left-1 {
+    margin-left: -40px;
+}
+
+
+/* 메인 추가 */
+
+.btn-primary-1 {
+    color: #000;
+    background-color: #9A161F;
+    border-color: #9A161F;
+    box-shadow: unset;
+}
+
+
+/* 메인 추가 */
+
+.btn-primary-2 {
+    color: white;
+    background-color: #9A161F;
+    border-color: #9A161F;
+    box-shadow: unset;
+    font-size: 15px;
+}
+
+.btn-primary-3 {
+    color: #000;
+    background-color: gray;
+    border-color: gray;
+    box-shadow: unset;
+}
+
+
+/* 메인 추가 */
+
+.fs-xl-1 {
+    font-size: 1.25rem !important;
+    color: #F4EFEA
+}
+
+
+/* 메인 추가 */
+
+.width-1 {
+    width: 1200px;
+}
+
+
+/* 메인 추가 */
+
+.height-1 {
+    height: 400px;
+}
+
+
+/* 메인 추가 */
+
+.height-2 {
+    height: 550px;
+}
+
+
+/* 메인 추가 */
+
+.padding-1 {
+    padding: top -5px;
+}
+
+
+/* 메인 추가 */
+
+.color-1 {
+    background-color: #9A161F;
+}
+
+
+/* 메인 추가 */
+
+.container-1>img {
+    transform: translate(250%, -15%);
+}
+
+
+/* 메인 추가 */
+
+.tab-content-1 {
+    float: left;
+    display: block;
+}
+
+
+/* 메인 추가 */
+
+.button-2 {
+    width: 200px;
+    height: 70px;
+    font-size: 22px;
+}
+
+
+/* 메인 추가 */
+
+.imgSize {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* 메인 추가 */
+
+.imgSize-1 {
+    width: 200px;
+    height: 260px;
+}
+
+
+/* 메인 추가 */
+
+.tabSize {
+    width: 500px;
+    height: 700px;
+}
+
+
+/* 메인 추가 */
+
+.cardSize {
+    width: 300px;
+    height: 400px;
+}
+
+
+/* 메인 추가 */
+
+.cardSize-1 {
+    width: 200px;
+    height: 350px;
+}
+
+
+/* 메인 추가 */
+
+.cardSize-2 {
+    width: 200px;
+    height: 350px;
+    margin-left: 210px;
+    margin-top: -350px;
+}
+
+
+/* 메인 추가 */
+
+.space-1 {
+    margin-left: 940px;
+    margin-top: -765px;
+}
+
+
+/* tab 추가 */
+
+html,
+body {
+    width: 100%;
+}
+
+body,
+div,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/*tab css*/
+
+.tab {
+    float: left;
+    width: 600px;
+    height: 290px;
+}
+
+.tabnav {
+    font-size: 0;
+    width: 600px;
+    border: 1px solid #ddd;
+}
+
+.tabnav li {
+    display: inline-block;
+    height: 46px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.tabnav li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 3px;
+}
+
+.tabnav li a.active:before {
+    background: #7ea21e;
+}
+
+.tabnav li a.active {
+    border-bottom: 1px solid #fff;
+}
+
+.tabnav li a {
+    position: relative;
+    display: block;
+    background: #f8f8f8;
+    color: #000;
+    padding: 0 30px;
+    line-height: 46px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.tabnav li a:hover,
+.tabnav li a.active {
+    background: #fff;
+    color: #7ea21e;
+}
+
+.tabcontent {
+    padding: 20px;
+    height: 244px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+
+/* tab 끝 */
+
+.navbar_icons_custom {
+    display: flex;
+    list-style: none;
+    color: #9A161F;
+    padding: 12px 12px;
+}
+
+.navbar_icons_custom li {
+    padding: 8px 12px;
+}
+
+.foot_custom {
+    justify-content: center;
+    background-color: #9A161F;
+    text-align: center;
+    color: #F4EFEA;
+}
+
+.foot_icons_custom {
+    display: flex;
+    list-style: none;
+    float: right;
+    color: #F4EFEA;
+}
+
+.foot_icons_custom a {
+    text-decoration: none;
+    color: #F4EFEA;
+    padding: 8px 12px;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.Easy-sgin-in-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+}
+
+h1,
+body {
+    margin: 100;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    position: relative;
+    width: 535px;
+    padding-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+.close {
+    width: 16px;
+    position: relative;
+    left: 92%;
+    top: -42px
+}
+
+.id {
+    width: 472px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin: 24px 0 0 24px;
+    border-radius: 4px;
+}
+
+.password {
+    width: 472px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    margin: 10px 0 0 24px;
+    border-radius: 4px;
+}
+
+.id::placeholder,
+.password::placeholder {
+    padding-left: 10px;
+}
+
+.stay-login {
+    margin-top: 17px;
+    margin-inline-start: -300px;
+    display: inline-block;
+}
+
+label {
+    font-size: 16px;
+    color: #767676;
+}
+
+.login {
+    display: inline-block;
+    width: 472px;
+    height: 38px;
+    padding-top: 12px;
+    margin: 21px 0 20px 30px;
+    line-height: 1.0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    background-color: #9A161F;
+}
+
+
+/*SNS*/
+
+.sns {
+    display: inline-block;
+    width: 472px;
+    height: 34px;
+    margin: 5px 0 5px 30px;
+    padding: 13px 0 3px 0;
+    border: 2px solid #767676;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 0.8;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #767676;
+}
+
+.sns::before {
+    float: left;
+    display: block;
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(images/css_sprites.png);
+}
+
+.sns.google::before {
+    width: 28Px;
+    height: 28px;
+    background-position: -17px -10px;
+}
+
+.sns.facebook::before {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -13px;
+}
+
+.sns.naver::before {
+    width: 28px;
+    height: 28px;
+    background-position: -7px -58px;
+}
+
+.sns.kakao::before {
+    width: 28px;
+    height: 28px;
+    background-position: -56px -58px;
+}
+
+.sns.google {
+    border: 2px solid #767676;
+}
+
+.sns.facebook {
+    border: 2px solid #2D9CDB;
+}
+
+.sns.naver {
+    border: 2px solid #00BF18;
+}
+
+.sns.kakao {
+    border: 2px solid #F2C94C;
+}
+
+
+/*회원가입 아이디 비밀번호착기 또는*/
+
+.r {
+    padding: 0px 15% 10% 15%;
+}
+
+.r a {
+    text-decoration: none;
+}
+
+.r_info {
+    list-style: none;
+    padding-top: 15px;
+}
+
+.r_hall {
+    list-style: none;
+    padding-top: 60px;
+}
+
+.r_1 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.r_2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.r_3 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.re {
+    padding: 2% 8% 5% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_h3 {
+    padding: 0px 0px 0px 5%;
+}
+
+.recommend_h3 {
+    padding: 0px 0px 0px 5%;
+}
+
+
+/* 공지사항 추가 시작 */
+
+@import url(style.css);
+@import url(media.css);
+@media (max-width: 1000px) {
+    .board_wrap {
+        width: 100%;
+        min-width: 320px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    .board_list .num,
+    .board_list .writer,
+    .board_list .count {
+        display: none;
+    }
+    .board_list .date {
+        width: 40%;
+    }
+    .board_list .title {
+        text-indent: 10px;
+    }
+    .board_list .top .title {
+        text-indent: 0;
+    }
+    .board_page a {
+        width: 26px;
+        height: 26px;
+    }
+    .board_page a.bt {
+        padding-top: 7px;
+    }
+    .board_page a.num {
+        padding-top: 6px;
+    }
+    .board_view .info dl {
+        width: 50%;
+        padding: 0;
+    }
+    .board_view .info dl:nth-child(-n+2) {
+        margin-bottom: 5px;
+    }
+    .board_view .info dl::before {
+        display: none;
+    }
+    .board_view .info dl dt,
+    .board_view .info dl dd {
+        font-size: 1.2rem;
+    }
+    .board_write .info dl {
+        width: 49%;
+    }
+    .board_write .info dl:first-child {
+        margin-right: 2%;
+    }
+    .board_write .title dt,
+    .board_write .info dt {
+        display: none;
+    }
+    .board_write .title dd,
+    .board_write .info dd {
+        width: 100%;
+    }
+    .board_write .title input[type="text"],
+    .board_write .info input[type="text"],
+    .board_write .info input[type="password"] {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap {
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title {
+    margin-bottom: 30px;
+}
+
+.board_title strong {
+    font-size: 3rem;
+}
+
+.board_title p {
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+
+/* 끝 */
+
+.bt_wrap a {
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #9A161F;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap a:first-child {
+    margin-left: 0;
+}
+
+.bt_wrap a.on {
+    background: #9A161F;
+    color: #fff;
+}
+
+.board_list {
+    width: 100%;
+    border-top: 2px solid #9A161F;
+}
+
+.board_list>div {
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+}
+
+.board_list>div.top {
+    border-bottom: 1px solid #999;
+}
+
+.board_list>div:last-child {
+    border-bottom: 1px solid #9A161F;
+}
+
+.board_list>div>div {
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.board_list>div.top>div {
+    font-weight: 600;
+}
+
+.board_list .num {
+    width: 10%;
+}
+
+.board_list .title {
+    width: 60%;
+    text-align: left;
+}
+
+.board_list .top .title {
+    text-align: center;
+}
+
+.board_list .writer {
+    width: 10%;
+}
+
+.board_list .date {
+    width: 10%;
+}
+
+.board_list .count {
+    width: 10%;
+}
+
+.board_page {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.board_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+}
+
+.board_page a.bt {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.board_page a.num {
+    padding-top: 9px;
+    font-size: 1.4rem;
+}
+
+.board_page a.num.on {
+    border-color: #9A161F;
+    background: #9A161F;
+    color: #fff;
+}
+
+.board_page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.board_view {
+    width: 100%;
+    border-top: 2px solid #9A161F;
+}
+
+.board_view .title {
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view .info {
+    padding: 15px;
+    border-bottom: 1px solid #9A161F;
+    font-size: 0;
+}
+
+.board_view .info dl {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.board_view .info dl:first-child {
+    padding-left: 0;
+}
+
+.board_view .info dl::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background: #ddd;
+}
+
+.board_view .info dl:first-child::before {
+    display: none;
+}
+
+.board_view .info dl dt,
+.board_view .info dl dd {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.board_view .info dl dt {
+    margin-left: 10px;
+    color: #777;
+}
+
+.board_view .info dl dd {
+    margin-left: 10px;
+    color: #777;
+}
+
+.board_view .cont {
+    padding: 15px;
+    border-bottom: 1px solid #9A161F;
+    line-height: 160%;
+    font-size: 1.4rem;
+}
+
+.board_write {
+    border-top: 2px solid #9A161F;
+}
+
+.board_write .title,
+.board_write .info {
+    padding: 15px;
+}
+
+.board_write .info {
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px solid #9A161F;
+    font-size: 0;
+}
+
+.board_write .title dl {
+    font-size: 0;
+}
+
+.board_write .info dl {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.board_write .title dt,
+.board_write .title dd,
+.board_write .info dt,
+.board_write .info dd {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.4rem;
+}
+
+.board_write .title dt,
+.board_write .info dt {
+    width: 100px;
+}
+
+.board_write .title dd {
+    width: calc(100% - 100px);
+}
+
+.board_write .title input[type="text"],
+.board_write .info input[type="text"],
+.board_write .info input[type="password"] {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.board_write .title input[type="text"] {
+    width: 80%;
+}
+
+.board_write .cont {
+    border-bottom: 1px solid #9A161F;
+}
+
+.board_write .cont textarea {
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0;
+    resize: vertical;
+}
+
+
+/* 공지사항 추가 끝 */
